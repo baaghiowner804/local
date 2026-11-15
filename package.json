@@ -1,13 +1,13 @@
 {
-  "name": "JUTT-X-MD",
+  "name": "local-files",
   "version": "1.4.0",
-  "description": "JUTT X MD Whatsapp bot",
+  "description": "files",
   "main": "index.js",
   "scripts": {
     "start": "node --max-old-space-size=400 --optimize-for-size --expose-gc index.js",
-    "start:pm2": "pm2 start index.js --node-args='--max-old-space-size=400 --optimize-for-size --expose-gc' --deep-monitoring --name JUTT-X-MD",
-    "stop": "pm2 stop JUTT-X-MD",
-    "restart": "pm2 restart JUTT-X-MD",
+    "start:pm2": "pm2 start index.js --node-args='--max-old-space-size=400 --optimize-for-size --expose-gc' --deep-monitoring --name local-files",
+    "stop": "pm2 stop Local-Files",
+    "restart": "pm2 restart local-files",
     "dev": "nodemon index.js"
   },
   "dependencies": {
